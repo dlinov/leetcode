@@ -1,5 +1,12 @@
+# Scala/sbt specific
 .bloop/
 .metals/
 .vscode/
 target/
 *.class
+
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
