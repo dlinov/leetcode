@@ -1,16 +1,15 @@
 plugins {
     id 'java'
-    // id 'application'
+    id 'scala'
+    id "com.github.maiflai.scalatest" version "0.25"
 }
 
-// repositories {
-//     jcenter() 
-// }
+repositories {
+    jcenter() 
+}
 
-// dependencies {
-//     implementation 'com.google.guava:guava:26.0-jre' 
-
-//     testImplementation 'junit:junit:4.12' 
-// }
-
-// mainClassName = 'io.github.dlinov.leetcode.Tester'
+dependencies {
+    compile 'org.scala-lang:scala-library:2.12.8'
+    testCompile 'org.scalatest:scalatest_2.12:3.0.7'
+    testRuntime 'org.pegdown:pegdown:1.4.2'
+}
