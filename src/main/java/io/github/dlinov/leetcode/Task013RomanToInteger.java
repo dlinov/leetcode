@@ -78,6 +78,7 @@ class Task013RomanToInteger {
                         } else {
                             result += 1;
                         }
+                        break;
                     default:
                         break;
                 }

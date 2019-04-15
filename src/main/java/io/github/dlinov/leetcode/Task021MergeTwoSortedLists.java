@@ -3,6 +3,11 @@ package io.github.dlinov.leetcode;
 import java.util.*;
 
 class Task021MergeTwoSortedLists {
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
+    }
     /**
      * Definition for singly-linked list.
      * public class ListNode {

@@ -2,44 +2,12 @@ package io.github.dlinov.leetcode;
 
 import java.util.*;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-
 class Task019RemoveNthNodeFromEndOfList {
 
-    public static void main(String[] args) {
-        final Solution s = new Solution();
-        for (int i = 1; i <= 9; ++i) {
-            ListNode n9 = new ListNode(9);
-            n9.next = null;
-            ListNode n8 = new ListNode(8);
-            n8.next = n9;
-            ListNode n7 = new ListNode(7);
-            n7.next = n8;
-            ListNode n6 = new ListNode(6);
-            n6.next = n7;
-            ListNode n5 = new ListNode(5);
-            n5.next = n6;
-            ListNode n4 = new ListNode(4);
-            n4.next = n5;
-            ListNode n3 = new ListNode(3);
-            n3.next = n4;
-            ListNode n2 = new ListNode(2);
-            n2.next = n3;
-            ListNode n1 = new ListNode(1);
-            n1.next = n2;
-            ListNode list = s.removeNthFromEnd(n1, i);
-            System.out.println(String.format("Solution for %d:", i));
-            int j = 0;
-            while (list != null && j++ < 20) {
-                System.out.print(list.val);
-                list = list.next;
-            }
-            System.out.println("\n====================");
-        }
+    class ListNode {
+        int val;
+        ListNode next;
+        ListNode(int x) { val = x; }
     }
 
     /**
@@ -50,7 +18,7 @@ class Task019RemoveNthNodeFromEndOfList {
      *     ListNode(int x) { val = x; }
      * }
      */
-    static class Solution {
+    class Solution {
         public ListNode removeNthFromEnd(ListNode head, int n) {
             ListNode fakeHead = new ListNode(0);
             fakeHead.next = head;
