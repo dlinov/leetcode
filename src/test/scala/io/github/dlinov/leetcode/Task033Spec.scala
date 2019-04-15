@@ -5,7 +5,7 @@ import org.scalatest._
 class Task033Spec extends WordSpec with Matchers {
     "Task 33, Search in Rotated Sorted Array" must {
         val task = new Task033SearchInRotatedSortedArray()
-        val s = new task.Solution();
+        val s = new task.Solution()
         
         "not find 0 in [1, 3]" in {
             val nums = Array(1, 3)
