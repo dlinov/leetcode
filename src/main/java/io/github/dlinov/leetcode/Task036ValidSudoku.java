@@ -44,8 +44,9 @@ class Task036ValidSudoku {
                 int expected = 0;
                 for (int i = 0; i < a / 3; ++i) {
                     for (int j = 0; j < a / 3; ++j) {
-                        if (board[baseRow + i][baseColumn + j] != '.') {
-                            charsSet.add(board[baseRow + i][baseColumn + j]);
+                        final char curr = board[baseRow * 3 + i][baseColumn * 3 + j];
+                        if (curr != '.') {
+                            charsSet.add(curr);
                             ++expected;
                         }
                     }
