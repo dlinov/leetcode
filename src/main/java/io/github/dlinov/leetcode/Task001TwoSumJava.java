@@ -14,6 +14,7 @@ public class Task001TwoSumJava {
                 }
                 numsMap.put(nums[i], i);
             }
+            throw new IllegalArgumentException("No pair sums up to a target");
         }
     }
 }
