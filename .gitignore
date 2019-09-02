@@ -10,3 +10,9 @@ target/
 
 # Ignore Gradle build output directory
 build
+
+# Visual Studio Code - Java extension files
+.classpath
+.project
+.settings/
+bin/
