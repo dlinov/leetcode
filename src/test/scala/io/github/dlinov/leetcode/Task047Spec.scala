@@ -2,7 +2,7 @@ package io.github.dlinov.leetcode
 
 import org.scalatest._
 
-import scala.collection.JavaConverters._
+import scala.jdk.CollectionConverters.ListHasAsScala
 
 class Task047Spec extends WordSpec with Matchers {
     "Task 47, Permutations II" must {
