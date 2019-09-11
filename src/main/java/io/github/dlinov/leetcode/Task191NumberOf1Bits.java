@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task191NumberOf1Bits {
     class Solution {
         // you need to treat n as an unsigned value

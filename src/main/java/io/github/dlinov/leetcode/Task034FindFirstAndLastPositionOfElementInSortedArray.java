@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task034FindFirstAndLastPositionOfElementInSortedArray {
     class Solution {
         public int[] searchRange(int[] nums, int target) {

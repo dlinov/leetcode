@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task152MaximumProductSubarray {
     class Solution {
         public int maxProduct(int[] nums) {

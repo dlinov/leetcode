@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task021MergeTwoSortedLists {
     class ListNode {
         int val;

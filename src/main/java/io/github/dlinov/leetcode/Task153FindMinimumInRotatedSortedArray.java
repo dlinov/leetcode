@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task153FindMinimumInRotatedSortedArray {
     class Solution {
         public int findMin(int[] nums) {

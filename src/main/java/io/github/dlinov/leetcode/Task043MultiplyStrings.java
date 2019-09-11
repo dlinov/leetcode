@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task043MultiplyStrings {
     class Solution {
         public String multiply(String num1, String num2) {

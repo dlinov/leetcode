@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task048RotateImage {
     class Solution {
         public void rotate(int[][] matrix) {

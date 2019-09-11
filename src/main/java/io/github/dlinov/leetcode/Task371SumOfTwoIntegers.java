@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task371SumOfTwoIntegers {
     class Solution {
         public int getSum(int a, int b) {

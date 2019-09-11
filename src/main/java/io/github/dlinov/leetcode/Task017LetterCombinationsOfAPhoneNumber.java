@@ -5,7 +5,6 @@ import java.util.*;
 class Task017LetterCombinationsOfAPhoneNumber {
     class Solution {
         public List<String> letterCombinations(String digits) {
-            final int n = digits.length();
             final List<String> results = new ArrayList<>(512);
             final Map<Character, char[]> buttons = new HashMap<>(16);
             buttons.put('2', new char[] {'a', 'b', 'c'});

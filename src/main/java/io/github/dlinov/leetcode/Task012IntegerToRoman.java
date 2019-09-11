@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task012IntegerToRoman {
     class Solution {
         public String intToRoman(int num) {

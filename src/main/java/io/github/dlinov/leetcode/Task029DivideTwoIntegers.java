@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task029DivideTwoIntegers {
     class Solution {
         public int divide(int dividend, int divisor) {

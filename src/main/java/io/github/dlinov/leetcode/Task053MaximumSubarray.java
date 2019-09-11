@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task053MaximumSubarray {
     class Solution {
         public int maxSubArray(int[] nums) {

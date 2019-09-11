@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task050PowXN {
     class Solution {
         public double myPow(double x, int n) {

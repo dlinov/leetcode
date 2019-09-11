@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task010RegularExpressionMatching {
     private final static String inputTemplate = "Test if %s matches %s...";
     private final static String outputTemplate = "\tactual: %b, expected: %b";

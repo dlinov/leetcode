@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task070ClimbingStairs {
     class Solution {
         public int climbStairs(int n) {

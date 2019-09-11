@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task008StringToInteger {
     class Solution {
         public int myAtoi(String str) {

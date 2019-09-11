@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task011ContainerWithMostWater {
     class Solution {
         public int maxArea(int[] height) {

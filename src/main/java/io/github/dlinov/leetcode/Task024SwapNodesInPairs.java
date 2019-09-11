@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task024SwapNodesInPairs {
     class ListNode {
         int val;

@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task009PalindromeNumber {
     class Solution {
         public boolean isPalindrome(int x) {

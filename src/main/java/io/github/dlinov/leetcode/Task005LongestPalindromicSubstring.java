@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task005LongestPalindromicSubstring {
     class Solution {
         public String longestPalindrome(String s) {

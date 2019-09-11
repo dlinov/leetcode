@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task268MissingNumber {
     class Solution {
         public int missingNumber(int[] nums) {

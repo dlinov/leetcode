@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task035SearchInsertPosition {
     class Solution {
         public int searchInsert(int[] nums, int target) {

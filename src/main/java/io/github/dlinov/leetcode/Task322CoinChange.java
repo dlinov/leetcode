@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task322CoinChange {
     class Solution {
         public int coinChange(int[] coins, int amount) {

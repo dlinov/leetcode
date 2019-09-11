@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task338CountingBits {
     class Solution {
         public int[] countBits(int num) {

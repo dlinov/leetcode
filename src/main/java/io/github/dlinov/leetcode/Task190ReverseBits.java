@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task190ReverseBits {
     class Solution {
         public int reverseBits(int n) {

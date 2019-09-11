@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task027RemoveElement {
     class Solution {
         public int removeElement(int[] nums, int val) {

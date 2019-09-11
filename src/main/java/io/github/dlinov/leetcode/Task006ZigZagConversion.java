@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task006ZigZagConversion {
     class Solution {
         public String convert(String s, int numRows) {

@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task026RemoveDuplicatesFromSortedArray {
     class Solution {
         public int removeDuplicates(int[] nums) {

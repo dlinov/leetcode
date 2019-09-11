@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task014LongestCommonPrefix {
     class Solution {
         public String longestCommonPrefix(String[] strs) {

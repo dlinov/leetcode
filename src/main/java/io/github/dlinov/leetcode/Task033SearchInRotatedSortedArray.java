@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task033SearchInRotatedSortedArray {
     class Solution {
         public int search(int[] nums, int target) {

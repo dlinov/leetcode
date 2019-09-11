@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 class Task028ImplementStrStr {
     class Solution {
         public int strStr(String haystack, String needle) {

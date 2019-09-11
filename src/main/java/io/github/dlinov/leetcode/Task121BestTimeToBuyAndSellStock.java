@@ -1,7 +1,5 @@
 package io.github.dlinov.leetcode;
 
-import java.util.*;
-
 public class Task121BestTimeToBuyAndSellStock {
     class Solution {
         public int maxProfit(int[] prices) {
