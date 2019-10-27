@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    compile 'org.scala-lang:scala-library:2.13.0'
+    compile 'org.scala-lang:scala-library:2.13.1'
     testCompile 'org.scalatest:scalatest_2.12:3.0.8'
     testRuntime 'org.pegdown:pegdown:1.6.0'
 }
