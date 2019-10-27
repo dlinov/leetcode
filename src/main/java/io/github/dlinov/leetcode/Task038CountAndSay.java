@@ -1,4 +1,5 @@
 package io.github.dlinov.leetcode;
+
 class Task038CountAndSay {
     class Solution {
         public String countAndSay(int n) {
