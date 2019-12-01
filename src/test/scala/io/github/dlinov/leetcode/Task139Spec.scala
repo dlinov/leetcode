@@ -2,9 +2,11 @@ package io.github.dlinov.leetcode
 
 import java.util.Arrays;
 
-import org.scalatest._
+import  org.scalatest.Assertion
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class Task139Spec extends WordSpec with Matchers {
+class Task139Spec extends AnyWordSpec with Matchers {
     private val task = new Task139WordBreak()
 
     "Task 139, Word Break" must {

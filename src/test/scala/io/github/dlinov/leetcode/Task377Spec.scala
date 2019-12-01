@@ -1,8 +1,9 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class Task377Spec extends WordSpec with Matchers {
+class Task377Spec extends AnyWordSpec with Matchers {
 
     "Task 377, Combination Sum IV" must {
         val task = new Task377CombinationSumIV()
