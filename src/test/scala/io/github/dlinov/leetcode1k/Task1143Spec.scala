@@ -1,8 +1,10 @@
 package io.github.dlinov.leetcode1k
 
-import org.scalatest._
+import org.scalatest.Assertion
+import org.scalatest.matchers.should.Matchers
+import org.scalatest.wordspec.AnyWordSpec
 
-class Task1143Spec extends WordSpec with Matchers {
+class Task1143Spec extends AnyWordSpec with Matchers {
     private val task = new Task1143LongestCommonSubsequence()
     private val longText1 = "abcdefghij" * 100
     private val longText2 = "abcdefghij" * 100
