@@ -1,8 +1,9 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
-class Task031Spec extends WordSpec with Matchers {
+class Task031Spec extends AnyWordSpec with Matchers {
     "Task 31, Next Permutation" must {
         val task = new Task031NextPermutation()
         val s = new task.Solution();

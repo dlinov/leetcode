@@ -1,8 +1,10 @@
 package io.github.dlinov.leetcode1k
 
-import org.scalatest._
+import org.scalatest.Assertion
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
-class Task1116Spec extends WordSpec with Matchers {
+class Task1116Spec extends AnyWordSpec with Matchers {
     private val s = new Task1116PrintZeroEvenOdd()
 
     "Task 1116, Print Zero Even Odd" must {

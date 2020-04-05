@@ -1,10 +1,11 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
 import scala.jdk.CollectionConverters.ListHasAsScala
 
-class Task047Spec extends WordSpec with Matchers {
+class Task047Spec extends AnyWordSpec with Matchers {
     "Task 47, Permutations II" must {
         val task = new Task047PermutationsII()
         val s = new task.Solution();

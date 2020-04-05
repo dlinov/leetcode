@@ -1,8 +1,9 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
-class Task153Spec extends WordSpec with Matchers {
+class Task153Spec extends AnyWordSpec with Matchers {
     "Task 153, Find Minimum in Rotated Sorted Array" must {
         val task = new Task153FindMinimumInRotatedSortedArray()
         val s = new task.Solution()

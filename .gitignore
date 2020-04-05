@@ -5,6 +5,9 @@
 target/
 *.class
 
+# Metals
+project/metals.sbt
+
 # Ignore Gradle project-specific cache directory
 .gradle
 

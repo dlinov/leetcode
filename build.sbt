@@ -16,6 +16,6 @@ lazy val root = (project in file("."))
       "-Xlint",
       "-Werror"
     ),
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.8" % Test,
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.1.1" % Test,
     ThisBuild / turbo := true,
   )

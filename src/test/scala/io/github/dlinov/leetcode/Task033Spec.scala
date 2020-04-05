@@ -1,8 +1,9 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
-class Task033Spec extends WordSpec with Matchers {
+class Task033Spec extends AnyWordSpec with Matchers {
     "Task 33, Search in Rotated Sorted Array" must {
         val task = new Task033SearchInRotatedSortedArray()
         val s = new task.Solution()

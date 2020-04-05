@@ -1,10 +1,11 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
 import scala.annotation.tailrec
 
-class Task019Spec extends WordSpec with Matchers {
+class Task019Spec extends AnyWordSpec with Matchers {
     "Task 19, Remove Nth Node From End of List" must {
         val task = new Task019RemoveNthNodeFromEndOfList()
         val s = new task.Solution()

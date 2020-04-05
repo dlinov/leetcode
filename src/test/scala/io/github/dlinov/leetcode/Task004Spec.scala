@@ -1,8 +1,9 @@
 package io.github.dlinov.leetcode
 
-import org.scalatest._
+import org.scalatest.wordspec.AnyWordSpec
+import org.scalatest.matchers.should.Matchers
 
-class Task004Spec extends WordSpec with Matchers {
+class Task004Spec extends AnyWordSpec with Matchers {
     "Task 4, Median of Two Sorted Arrays" must {
         "find median for [1,2,3] and [4,5,6]" in {
             val actual = calculate(Array(1,2,3), Array(4,5,6))
