@@ -9,7 +9,7 @@ class Task198Spec extends AnyWordSpec with Matchers {
         val task = new Task198HouseRobber()
         
         "return 4 for [1,2,3,1]" in {
-            test(Array(1, 2, 3), 4)
+            test(Array(1, 2, 3, 1), 4)
         }
         
         "return 12 for [2,7,9,3,1]" in {
