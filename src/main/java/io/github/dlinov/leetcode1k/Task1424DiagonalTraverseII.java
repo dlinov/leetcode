@@ -5,34 +5,33 @@ import java.util.*;
 public class Task1424DiagonalTraverseII {
     class Solution {
         public int[] findDiagonalOrder(List<List<Integer>> nums) {
-            final int n = nums.size();
-            final List<Iterator<Integer>> rows = new ArrayList<>(n);
-            for (List<Integer> row : nums) {
-                rows.add(row.iterator());
-            }
-            List<Integer> flattened = new ArrayList<>(32);
-            for (int i = 0; i < n; ++i) {
-                for (int j = i; j >= 0; --j) {
-                    if (j < n) {
-                        var row = rows.get(j);
-                        if (row.hasNext()) {
-                            flattened.add(row.next());
-                        }
+            final Map<Integer, Stack<Integer>> diagonals = new TreeMap<>();
+            int ri = 0;
+            int k = 0;
+            for (var row : nums) {
+                var ci = 0;
+                for (var elem : row) {
+                    var key = ri + ci;
+                    var q = diagonals.get(key);
+                    if (q == null) {
+                        q = new Stack<Integer>();
+                        diagonals.put(key, q);
                     }
+                    q.add(elem);
+                    ++k;
+                    ++ci;
+                }
+                ++ri;
+            }
+            int[] flattened = new int[k];
+            k = 0;
+            for (var entry : diagonals.entrySet()) {
+                var diag = entry.getValue();
+                while (!diag.isEmpty()) {
+                    flattened[k++] = diag.pop();
                 }
             }
-            boolean allEmpty = false;
-            while (!allEmpty) {
-                allEmpty = true;
-                for (int i = n - 1; i >= 0; --i) {
-                    var row = rows.get(i);
-                    if (row.hasNext()) {
-                        flattened.add(row.next());
-                        allEmpty = false;
-                    }
-                }
-            }
-            return flattened.stream().mapToInt(Integer::intValue).toArray();
+            return flattened;
         }
     }
 }
