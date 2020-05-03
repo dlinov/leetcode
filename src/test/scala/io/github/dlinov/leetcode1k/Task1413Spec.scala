@@ -3,7 +3,7 @@ package io.github.dlinov.leetcode1k
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers
 
-class Task1Spec extends AnyWordSpec with Matchers {
+class Task1413Spec extends AnyWordSpec with Matchers {
   private val t = new Task1413MinimumValueToGetPositiveStepByStepSum();
   private val s = new t.Solution();
 
