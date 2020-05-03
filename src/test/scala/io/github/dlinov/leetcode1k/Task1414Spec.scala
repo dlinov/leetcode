@@ -3,7 +3,7 @@ package io.github.dlinov.leetcode1k
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers
 
-class Task2Spec extends AnyWordSpec with Matchers {
+class Task1414Spec extends AnyWordSpec with Matchers {
   private val t = new Task1414FindTheMinimumNumberOfFibonacciNumbersWhoseSumIsK();
   private val s = new t.Solution();
 

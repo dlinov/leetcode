@@ -35,11 +35,9 @@ public class Task133CloneGraph {
             if (copy != null) return copy;
             copy = new Node(node.val);
             visited.put(node, copy);
-            List<Node> neighborCopies = new ArrayList<>();
             for (Node n : node.neighbors) {
-                neighborCopies.add(inner(n, visited));
+                copy.neighbors.add(inner(n, visited));
             }
-            copy.neighbors = neighborCopies;
             return copy;
         }
     }
