@@ -2,7 +2,7 @@ package io.github.dlinov.leetcode;
 
 import java.util.*;
 
-class Task040CombinationSum {
+class Task040CombinationSumII {
     class Solution {
         public List<List<Integer>> combinationSum2(int[] candidates, int target) {
             Arrays.sort(candidates);
