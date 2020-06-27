@@ -1,8 +1,8 @@
 lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
-    version := "0.142.1485",
-    scalaVersion := "2.13.2",
+    version := "0.146.1499",
+    scalaVersion := "2.13.3",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
       "-deprecation",
