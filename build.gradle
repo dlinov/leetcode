@@ -9,7 +9,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'org.scala-lang:scala-library:2.13.2'
+    implementation 'org.scala-lang:scala-library:2.13.3'
     testImplementation 'org.scalatest:scalatest_2.13:3.1.2'
     testRuntimeOnly 'com.vladsch.flexmark:flexmark-all:0.35.10'
 }
