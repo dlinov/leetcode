@@ -1,5 +1,5 @@
 package io.github.dlinov.leetcode
-  
+
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpec
 
