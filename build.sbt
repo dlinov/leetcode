@@ -1,7 +1,7 @@
 lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
-    version := "0.168.1553",
+    version := "0.169.1553",
     scalaVersion := "2.13.3",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
@@ -16,6 +16,9 @@ lazy val root = (project in file("."))
       "-Xlint",
       "-Werror"
     ),
-    libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.1" % Test,
+    libraryDependencies ++= Seq(
+      "org.scalatest" %% "scalatest-wordspec" % "3.2.1" % Test,
+      "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.1" % Test,
+    ),
     ThisBuild / turbo := true,
   )
