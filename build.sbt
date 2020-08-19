@@ -1,15 +1,19 @@
 lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
-    version := "0.169.1553",
+    version := "0.170.1553",
     scalaVersion := "2.13.3",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
       "-deprecation",
+      "-feature",
       "-unchecked",
       "-Xfatal-warnings",
       "-Xlint",
-      "-Ywarn-dead-code"
+      "-Ybackend-parallelism", java.lang.Runtime.getRuntime.availableProcessors().toString,
+      "-Ywarn-dead-code",
+      "-Ywarn-extra-implicit",
+      "-Ywarn-numeric-widen",
     ),
     javacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
