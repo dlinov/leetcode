@@ -1,5 +1,6 @@
 # Scala/sbt specific
 .bloop/
+.bsp/
 .metals/
 .vscode/
 target/
