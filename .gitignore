@@ -3,10 +3,8 @@
 .metals/
 .vscode/
 target/
-*.class
-
-# Metals
 metals.sbt
+*.class
 
 # Ignore Gradle files
 .gradle
