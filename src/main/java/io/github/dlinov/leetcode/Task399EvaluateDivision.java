@@ -31,9 +31,9 @@ public class Task399EvaluateDivision {
             visited.add(q1);
             Map<String,Double> q1Val = map.get(q1);
             
-            for(String s:q1Val.keySet()) {
-                Double d = dfs(map,s,q2,visited);
-                if(d!=null) {
+            for(String s : q1Val.keySet()) {
+                Double d = dfs(map, s, q2, visited);
+                if (d!=null) {
                     return d * q1Val.get(s);
                 }
             }
@@ -44,7 +44,7 @@ public class Task399EvaluateDivision {
             for(int i = 0; i < equations.size(); i++) {
                 List<String> eq = equations.get(i);
                 if(!map.containsKey(eq.get(0))) {
-                    map.put(eq.get(0),new HashMap<String,Double>());
+                    map.put(eq.get(0), new HashMap<String,Double>());
                 }
                 map.get(eq.get(0)).put(eq.get(1), values[i]);
                 
