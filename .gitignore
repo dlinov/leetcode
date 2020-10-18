@@ -6,7 +6,7 @@ target/
 *.class
 
 # Metals
-project/metals.sbt
+metals.sbt
 
 # Ignore Gradle files
 .gradle
