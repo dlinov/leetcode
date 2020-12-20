@@ -31,6 +31,8 @@ class Task146Spec extends AnyWordSpec with Matchers {
         val kv = arg.split(",").map(_.toInt)
         val (k, v) = (kv(0), kv(1))
         someCache.map(c => {c.put(k, v); c}) -> (output :+ "null")
+      case _ =>
+        throw new IllegalArgumentException
     }._2.mkString("[", ",", "]")
     actual should be(expected)
   }
