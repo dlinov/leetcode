@@ -1,5 +1,7 @@
 package io.github.dlinov.leetcode;
 
+import java.util.*;
+
 public class Task594LongestHarmoniousSubsequence {
     class Solution {
         public int findLHS(int[] nums) {
