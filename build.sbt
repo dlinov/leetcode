@@ -1,19 +1,24 @@
+ThisBuild / resolvers += Resolver.JCenterRepository
+ThisBuild / turbo := true
+
 lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
-    version := "0.321.1762",
-    scalaVersion := "2.13.4",
+    version := "0.322.1771",
+    scalaVersion := "3.0.0-RC1",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
       "-deprecation",
       "-feature",
       "-unchecked",
       "-Xfatal-warnings",
-      "-Xlint",
-      "-Ybackend-parallelism", java.lang.Runtime.getRuntime.availableProcessors().toString,
-      "-Ywarn-dead-code",
-      "-Ywarn-extra-implicit",
-      "-Ywarn-numeric-widen",
+      //"-Xlint",
+      //"-Ybackend-parallelism", java.lang.Runtime.getRuntime.availableProcessors().toString,
+      //"-Ywarn-dead-code",
+      //"-Ywarn-extra-implicit",
+      //"-Ywarn-numeric-widen",
+      //"-rewrite",
+      //"-source:3.0-migration",
     ),
     javacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
@@ -24,5 +29,5 @@ lazy val root = (project in file("."))
       "org.scalatest" %% "scalatest-wordspec" % "3.2.4" % Test,
       "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.4" % Test,
     ),
-    ThisBuild / turbo := true,
+    dependencyOverrides += "org.scala-lang" % "scala3doc_3.0.0-RC1" % "3.0.0-RC1-bin-20210202-8d43a9c-NIGHTLY",
   )
