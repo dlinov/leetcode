@@ -29,5 +29,4 @@ lazy val root = (project in file("."))
       "org.scalatest" %% "scalatest-wordspec" % "3.2.4" % Test,
       "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.4" % Test,
     ),
-    dependencyOverrides += "org.scala-lang" % "scala3doc_3.0.0-RC1" % "3.0.0-RC1-bin-20210202-8d43a9c-NIGHTLY",
   )
