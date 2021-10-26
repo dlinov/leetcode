@@ -5,7 +5,7 @@ lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
     version := "0.325.1938",
-    scalaVersion := "3.0.0",
+    scalaVersion := "3.0.2",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
       "-deprecation",
@@ -26,7 +26,7 @@ lazy val root = (project in file("."))
       "-Werror"
     ),
     libraryDependencies ++= Seq(
-      "org.scalatest" %% "scalatest-wordspec" % "3.2.9" % Test,
-      "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.9" % Test,
+      "org.scalatest" %% "scalatest-wordspec" % "3.2.10" % Test,
+      "org.scalatest" %% "scalatest-shouldmatchers" % "3.2.10" % Test,
     ),
   )
