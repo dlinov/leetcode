@@ -8,9 +8,14 @@ repositories {
     jcenter() 
 }
 
+ext {
+    scalaMajorVersion = '3'
+    scalaVersion = "$scalaMajorVersion.0.2"
+}
+
 dependencies {
-    implementation 'org.scala-lang:scala3-library_3:3.0.1'
-    testImplementation 'org.scalatest:scalatest-wordspec_3:3.2.9'
-    testImplementation 'org.scalatest:scalatest-shouldmatchers_3:3.2.9'
-    testRuntimeOnly 'com.vladsch.flexmark:flexmark-all:0.35.10'
+    implementation "org.scala-lang:scala3-library_3:$scalaVersion"
+    testImplementation "org.scalatest:scalatest-wordspec_$scalaMajorVersion:3.2.10"
+    testImplementation "org.scalatest:scalatest-shouldmatchers_$scalaMajorVersion:3.2.10"
+    testRuntimeOnly 'com.vladsch.flexmark:flexmark-all:0.62.2'
 }
