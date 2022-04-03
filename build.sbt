@@ -4,7 +4,7 @@ ThisBuild / turbo := true
 lazy val root = (project in file("."))
   .settings(
     name := "leetcode",
-    version := "0.331.2060",
+    version := "0.332.2060",
     scalaVersion := "3.1.0",
     scalacOptions ++= Seq(
       "-encoding", "utf8", // Option and arguments on same line
