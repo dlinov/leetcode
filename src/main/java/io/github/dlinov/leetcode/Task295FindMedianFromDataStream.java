@@ -3,7 +3,7 @@ package io.github.dlinov.leetcode;
 import java.util.*;
 
 class Task295FindMedianFromDataStream {
-    class Solution {
+    class MedianFinder {
         private PriorityQueue<Integer> small = new PriorityQueue<>(Collections.reverseOrder());
         private PriorityQueue<Integer> large = new PriorityQueue<>();
         private boolean even = true;
