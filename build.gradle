@@ -10,7 +10,7 @@ repositories {
 
 ext {
     scalaMajorVersion = '3'
-    scalaVersion = "$scalaMajorVersion.1.1"
+    scalaVersion = "$scalaMajorVersion.1.2"
 }
 
 dependencies {
